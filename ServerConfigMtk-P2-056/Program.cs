@@ -21,7 +21,7 @@ namespace ServerConfigMtk_P2_056
                 Console.ReadLine();
                 hostObj.Close();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 hostObj = null;
                 Console.WriteLine(ex.Message);
